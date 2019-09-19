@@ -1,0 +1,7 @@
+Liga o servidor
+Conecta no servidor
+Sem criptografia
+Mensagens podem ser trocadas
+Muda o algoritmo para Diffie-Hellman usando q e o alfa (8 bytes)
+Muda o algoritmo para RSA
+Muda o algoritmo para RC4
