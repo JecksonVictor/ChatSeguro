@@ -20,10 +20,9 @@ def sendMessage():
 serverIP = (str(sys.argv[1]))
 sysPort = (int(sys.argv[2]))
 
-Thread(target=getMessage, args=(serverIP, sysPort))
-
+Thread(target=getMessage, args=(serverIP, sysPort)).start()
 # send
 while connected == False:
     pass
 
-Thread(target=sendMessage, args=())
+Thread(target=sendMessage, args=()).start()
